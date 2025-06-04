@@ -276,6 +276,12 @@ a.active {
 
 
 @media (max-width: 1024px){
+  #body1{
+    background: url(assets/home/background-home-tablet.jpg) no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+  }
   #body2, #body3, #body4 {
     background: url(assets/destination/background-destination-tablet.jpg) no-repeat;
     background-size: cover;
@@ -315,6 +321,12 @@ a.active {
 
 
 @media (max-width: 375px){
+  #body1{
+    background: url(assets/home/background-home-mobile.jpg) no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+  }
  #body2, #body3, #body4 {
     background: url(assets/destination/background-destination-mobile.jpg) no-repeat;
     background-size: cover;
@@ -330,6 +342,9 @@ a.active {
   #contain{
     margin-top: 73px;
     height: 850px;
+  }
+  #explore{
+    margin-left: 30px;
   }
 
 }
