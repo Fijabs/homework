@@ -316,6 +316,9 @@ a.active {
   #mymoon{
     margin-left: 180px;
   }
+  #hamburger-menu{
+    visibility: hidden;
+  }
  
 }
 
