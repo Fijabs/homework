@@ -320,7 +320,10 @@ a.active {
 }
 
 
-@media (max-width: 375px){
+@media (max-width: 768px){
+  #navbar ul{
+    visibility: hidden;
+  }
   #body1{
     background: url(assets/home/background-home-mobile.jpg) no-repeat;
     background-size: cover;
@@ -347,4 +350,31 @@ a.active {
     margin-left: 30px;
   }
 
+ .hamburger-menu {
+    display: block;
+  }
+
+  .nav-menu {
+   display: none;
+   position: absolute;
+   top: 60px;
+    left: 0;
+   width: 100%;
+   background: white;
+     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .nav-menu.active {
+    display: block;
+  }
+
+  .nav-menu li {
+   padding: 15px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .nav-menu li:last-child {
+    border-bottom: none;
+  }
 }
+
